@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/earthquakeListFragment">
+
+    <fragment
+        android:id="@+id/earthquakeListFragment"
+        android:name="com.example.earthquake.ui.fragments.EarthquakeListFragment"
+        android:label="EarthquakeListFragment" >
+        <action
+            android:id="@+id/action_earthquakeListFragment_to_earthquakeDetailFragment"
+            app:destination="@id/earthquakeDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/earthquakeDetailFragment"
+        android:name="com.example.earthquake.ui.fragments.EarthquakeDetailFragment"
+        android:label="EarthquakeDetailFragment" >
+        <argument
+            android:name="earthquake"
+            app:argType="com.example.earthquake.model.KandilliItem" />
+
+    </fragment>
+</navigation>

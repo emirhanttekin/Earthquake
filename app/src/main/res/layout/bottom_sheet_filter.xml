@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#222">
+
+    <Button
+        android:id="@+id/option1Day"
+        android:text="Son 1 Gün"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option10Days"
+        android:text="Son 10 Gün"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option1Month"
+        android:text="Son 1 Ay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option1Year"
+        android:text="Son 1 Yıl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
